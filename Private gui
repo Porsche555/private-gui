@@ -1,0 +1,194 @@
+-- New draggable Orion Lib script for hub creations!
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "private gui by Heyik19/Somchai135792",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Name" -- Put the name of your hub or script here!
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "main1",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "script in here"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function()
+    end
+})
+
+
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end    
+})
+
+
+Tab:AddButton({
+    Name = "ultimateปาล์มชักว่าว",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "logo stigma ultimate",
+    Callback = function()
+       loadstring(game:HttpGet(('https://pastebin.com/raw/VbMpnRRy')))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "topk3k",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/i-topk3k-test-29602"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "John Doe",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "stigma ultimate",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-stigma-ultimate-29802"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Heyik19 skybox and decal",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Porsche555/Heyik19-on-top/refs/heads/main/Heyik19%20on%20top"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "ronald McDonald's🍟🍔🍦",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Lua hammer",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-Lua-Hammer-18934"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "steve",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Test4267/steve/refs/heads/main/rare"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "r15 to r6",
+    Callback = function()
+       loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-from-R15-to-R6-9639"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "spookyify",
+    Callback = function()
+       imageOne = "http://www.roblox.com/asset/?id=169585459"
+imageTwo = "http://www.roblox.com/asset/?id=169585475"
+imageThree = "http://www.roblox.com/asset/?id=169585485"
+imageFour = "http://www.roblox.com/asset/?id=169585502"
+imageFive = "http://www.roblox.com/asset/?id=169585515"
+imageSix = "http://www.roblox.com/asset/?id=169585502"
+imageSeven = "http://www.roblox.com/asset/?id=169585485"
+imageEight = "http://www.roblox.com/asset/?id=169585475"
+Spooky = Instance.new("Sound", game.Workspace)
+Spooky.Name = "Spooky"
+Spooky.SoundId = "rbxassetid://4808613510"
+Spooky.Volume = 1500
+Spooky.Looped = true
+Spooky:Play()
+Sky = Instance.new("Sky", game.Lighting)
+Sky.SkyboxBk = imageOne
+Sky.SkyboxDn = imageOne
+Sky.SkyboxFt = imageOne
+Sky.SkyboxLf = imageOne
+Sky.SkyboxRt = imageOne
+Sky.SkyboxUp = imageOne
+while true do
+    Sky.SkyboxBk = imageOne
+    Sky.SkyboxDn = imageOne
+    Sky.SkyboxFt = imageOne
+    Sky.SkyboxLf = imageOne
+    Sky.SkyboxRt = imageOne
+    Sky.SkyboxUp = imageOne
+    wait(0.25)
+    Sky.SkyboxBk = imageTwo
+    Sky.SkyboxDn = imageTwo
+    Sky.SkyboxFt = imageTwo
+    Sky.SkyboxLf = imageTwo
+    Sky.SkyboxRt = imageTwo
+    Sky.SkyboxUp = imageTwo
+    wait(0.25)
+    Sky.SkyboxBk = imageThree
+    Sky.SkyboxDn = imageThree
+    Sky.SkyboxFt = imageThree
+    Sky.SkyboxLf = imageThree
+    Sky.SkyboxRt = imageThree
+    Sky.SkyboxUp = imageThree
+    wait(0.25)
+    Sky.SkyboxBk = imageFour
+    Sky.SkyboxDn = imageFour
+    Sky.SkyboxFt = imageFour
+    Sky.SkyboxLf = imageFour
+    Sky.SkyboxRt = imageFour
+    Sky.SkyboxUp = imageFour
+    wait(0.25)
+    Sky.SkyboxBk = imageFive
+    Sky.SkyboxDn = imageFive
+    Sky.SkyboxFt = imageFive
+    Sky.SkyboxLf = imageFive
+    Sky.SkyboxRt = imageFive
+    Sky.SkyboxUp = imageFive
+    wait(0.25)
+    Sky.SkyboxBk = imageSix
+    Sky.SkyboxDn = imageSix
+    Sky.SkyboxFt = imageSix
+    Sky.SkyboxLf = imageSix
+    Sky.SkyboxRt = imageSix
+    Sky.SkyboxUp = imageSix
+    wait(0.25)
+    Sky.SkyboxBk = imageSeven
+    Sky.SkyboxDn = imageSeven
+    Sky.SkyboxFt = imageSeven
+    Sky.SkyboxLf = imageSeven
+    Sky.SkyboxRt = imageSeven
+    Sky.SkyboxUp = imageSeven
+    wait(0.25)
+    Sky.SkyboxBk = imageEight
+    Sky.SkyboxDn = imageEight
+    Sky.SkyboxFt = imageEight
+    Sky.SkyboxLf = imageEight
+    Sky.SkyboxRt = imageEight
+    Sky.SkyboxUp = imageEight
+    wait(0.25)
+end
+  end    
+})
