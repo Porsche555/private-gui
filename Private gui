@@ -192,3 +192,10 @@ while true do
 end
   end    
 })
+
+Tab:AddButton({
+    Name = "fluxus remake",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastefy.app/egXQ8zhz/raw", true))()
+  end    
+})
