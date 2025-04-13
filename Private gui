@@ -199,3 +199,17 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://pastefy.app/egXQ8zhz/raw", true))()
   end    
 })
+
+Tab:AddButton({
+    Name = "dominant executor",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/mhiagnSk", true))() 
+  end    
+})
+
+Tab:AddButton({
+    Name = "fly gui V3",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fly-gui-v3-22133"))()
+  end
+ })
