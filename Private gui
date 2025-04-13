@@ -213,3 +213,10 @@ Tab:AddButton({
        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fly-gui-v3-22133"))()
   end
  })
+
+Tab:AddButton({
+    Name = "c00lkidd gui",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/a-literal-baseplate.-c00lgui-v2-by-rc7-29706"))()
+  end
+ })
